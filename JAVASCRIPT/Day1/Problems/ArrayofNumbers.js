@@ -15,7 +15,6 @@ console.log("Eighth Element: "+arr[7]);
 console.log("Eleventh Element (undefined): "+arr[10]); // Out of bounds access
 
 
-let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 //operations on Arrays
 //Addition
 console.log(arr[3] + arr[5]);//4+6
