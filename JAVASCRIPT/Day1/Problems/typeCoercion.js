@@ -87,3 +87,18 @@ let nums = 1;
 let nums2 = String(2);
 let nums3 = nums + nums2;
 console.log(nums3)
+
+//level1:Foundation
+console.log("5" + 5);//string+number=string
+console.log("5" - 5);//string-number=number
+console.log(5 + true);//number+boolean=number
+console.log(5 + false);//number+boolean=number
+console.log(Boolean(" "));//notan empty string
+//Only ""(empty string) is falsy
+//" "(space), "0", "false" → truthy
+
+//level 2 :left to right thinking 
+console.log(10 + 5 + "5");//number+number+string=string
+console.log("10" + 5 + 5);//string+number+number=string
+console.log(10 + "" + 5);//number+emptystring+number=string
+console.log(10 - "5" + "2");//number-stirng+string=string
