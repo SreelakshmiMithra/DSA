@@ -13,3 +13,15 @@ console.log("Second Element: "+arr[1]);
 console.log("Fifth Element: "+arr[4]);
 console.log("Eighth Element: "+arr[7]);
 console.log("Eleventh Element (undefined): "+arr[10]); // Out of bounds access
+
+
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+//operations on Arrays
+//Addition
+console.log(arr[3] + arr[5]);//4+6
+//subtraction 
+console.log(arr[6] - arr[3]);//7-4
+//multiplication
+console.log(arr[2] * arr[8]);//3*9
+//division
+console.log(arr[5] / arr[2]);//6/3
