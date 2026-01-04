@@ -6,7 +6,7 @@ function printHelloWorld(x) {
 
     // Loop runs from 0 to x-1
     for (let i = 0; i < x; i++) {
-        console.log("Hello World");
+        console.log("Hello World", i );
     }
 }
 
