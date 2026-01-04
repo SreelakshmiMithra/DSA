@@ -14,8 +14,7 @@ function greetUsers(userCount) {
         greet(name);
     }
 }
-
-// Example: 15 users coming at a time 
+// Dynamic value for number of users
 let numberOfUsers = 10;
 
 // Call the function with dynamic value
