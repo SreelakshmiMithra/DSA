@@ -1,12 +1,14 @@
-let arr = [11,12,13,14,15,16,17,18,19,20];
+////: Global array approach
+
+let arr = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
 
 function searchElement(x) {
   for (let i = 0; i < arr.length; i++) {
-    if (x === arr[i]) {
-      return i; // stop and send index back
+    if (arr[i] === x) {
+      return i;
     }
   }
-  return -1; // only comes here if element NOT found
+  return -1;
 }
 
 let x = 13;
@@ -17,3 +19,4 @@ if (result === -1) {
 } else {
   console.log("Element found, index is:", result);
 }
+
