@@ -29,3 +29,30 @@ function rightAngleTriangleStarPattern(size){
 rightAngleTriangleStarPattern(5);
 
 // ===============================
+
+// Pattern 3: Inverted Right Angle Triangle Star Pattern
+// ===============================
+function invertedRightAngleTriangleStarPattern(size){ 
+  for(let i=size;i>0;i--){
+    let row=""; 
+    for(let j=0;j<i;j++){
+      row +="* ";
+    }
+    console.log(row);
+  }
+}
+invertedRightAngleTriangleStarPattern(5);
+
+// ===============================
+//parttern 4:right angle triangle number pattern
+function numberRightAngleTrianglePattern(size){
+for(let i = 0;i<size;i++){
+  let row=""
+  for(let j=0;j<i+1;j++){
+   row=row+" "+(j+1)
+   
+  }
+   console.log(row);
+}
+}
+numberRightAngleTrianglePattern(5)
